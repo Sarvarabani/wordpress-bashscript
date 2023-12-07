@@ -9,4 +9,4 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo git clone https://github.com/Sarvarabani/wordpress.git
 cd wordpress
-sudo docker-compose up -d
+docker-compose up -d
